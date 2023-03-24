@@ -1,0 +1,14 @@
+name: sample action workflow
+on: [push]
+jobs:
+  sample-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: sample action
+        id: greet
+        uses: actions/hello-world-javascript-action@v1
+        with:
+          who-to-greet: siva
+      - name: Log Greeting
+        run: echo "issue resloved"
+    
