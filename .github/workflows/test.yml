@@ -1,4 +1,4 @@
-name: shell cmds
+name: powershell and bash cmds
 on: [push]
 jobs: 
   run-shell-command:
