@@ -1,7 +1,7 @@
 name: Actions workflow
 on: [push]
 jobs: 
-  run-shell-command:
+  run-github-actions:
     runs-on: ubuntu-latest
     steps: 
       - name: sample Actiopns
